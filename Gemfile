@@ -38,3 +38,4 @@ group :development do
   gem 'pry-rails'
 end
 
+gem 'omniauth-facebook'
