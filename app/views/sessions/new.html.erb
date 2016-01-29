@@ -1,0 +1,12 @@
+<%= form_tag session_path do %>
+   <fieldset>
+     <legend>Please log in</legend>
+     <%= label_tag :email %>
+     <%= text_field_tag :email %> <br>
+
+     <%= label_tag :password %>
+     <%= password_field_tag :password %> <br>
+
+     <%= submit_tag 'Log in' %>
+   </fieldset>
+<% end %>
